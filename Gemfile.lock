@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    geotix_presenter_plugin (0.0.1)
+    theme_presenter_plugin (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -13,8 +13,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  geotix_presenter_plugin!
   rake (~> 12.3)
+  theme_presenter_plugin!
 
 BUNDLED WITH
    1.17.3

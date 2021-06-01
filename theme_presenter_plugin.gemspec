@@ -3,13 +3,13 @@ lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "geotix_presenter_plugin"
+  spec.name          = "theme_presenter_plugin"
   spec.version       = '0.0.1'
-  spec.authors       = ["GeoTix"]
-  spec.email         = ["development@geotix.com"]
+  spec.authors       = ["Evvnt"]
+  spec.email         = ["dev@evvnt.com"]
 
-  spec.summary       = "A plugin to add GeoTix brand theme to presenters"
-  spec.homepage      = 'http://github.com/mynorth/geotix_presenters_plugin'
+  spec.summary       = "A plugin to add Evvnt brand theme to presenters"
+  spec.homepage      = 'http://github.com/evvnt/theme_presenters_plugin'
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
