@@ -1,10 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'theme_presenter_plugin/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "geotix_presenter_plugin"
-  spec.version       = '0.0.1'
+  spec.version       = ThemePresentersPlugin::Version::VERSION
   spec.authors       = ["GeoTix"]
   spec.email         = ["development@geotix.com"]
 
