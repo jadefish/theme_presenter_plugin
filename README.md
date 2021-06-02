@@ -1,6 +1,6 @@
 # Evvnt Theme Presenter Plugin
 
-A plugin for [presenters](http://github.com/rx/presenters) containing styles for the Evvnt branded theme.
+A plugin for [COPRL](http://github.com/coprl/presenters) containing styles for the Evvnt branded theme.
 
 Presenters themes are based on top of [theming MDC](https://material.io/develop/web/theming/theming-guide) components.
 It uses a sparse loading of themed styles ontop of the default [COPRL] theme. 
