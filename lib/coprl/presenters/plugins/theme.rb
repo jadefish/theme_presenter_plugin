@@ -97,7 +97,7 @@ module Coprl
           # It will be called once for the page.
           # The pom is passed along with the sinatra render method.
           def render_header_theme(pom, render:)
-            render.call :erb, 'theme_header', views: view_dir_foo(pom)
+            render.call :erb, 'theme_header', views: view_dir_theme(pom)
           end
         end
       end
