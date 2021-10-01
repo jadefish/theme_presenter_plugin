@@ -7506,19 +7506,29 @@ a {
   color: #26C6DA; }
 
 #breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: center;
   color: white;
   background-color: #324D5C;
-  padding: 2px 0 2px 16px;
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 0px 3px 0px rgba(0, 0, 0, 0.12);
-  max-height: 40px; }
+  padding: 2px 16px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 0px 3px 0px rgba(0, 0, 0, 0.12); }
   #breadcrumbs i {
-    font-size: 1.125rem; }
+    user-select: none;
+    pointer-events: none;
+    cursor: unset; }
   #breadcrumbs .mdc-button {
-    color: white; }
-
-#chevron {
-  color: white;
-  font-size: 1.0rem; }
+    color: white;
+    min-width: unset; }
+  #breadcrumbs .mdc-button + .v-typography {
+    color: white;
+    line-height: inherit;
+    font-size: inherit;
+    user-select: none;
+    pointer-events: none;
+    cursor: unset; }
 
 .mdc-top-app-bar {
   background-color: #DC1F3C;
