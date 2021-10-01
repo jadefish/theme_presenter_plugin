@@ -37,6 +37,9 @@
 @import "breadcrumbs";
 @import "behaviors/fixed-nav-elements";
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
 .mdc-fab {
   background-color: palette(primary6);
